@@ -1,0 +1,172 @@
+body{
+  margin: 0;  /* No need to specify unit when value is zero*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}  
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  color: #66BFBF;
+  line-height: 0.7;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  width: 4%;
+  margin: 10px;
+  border: 10px;
+  border-style: dotted;
+  border-bottom: 0;
+  margin: 50px auto;
+  color: #F9EBC8; 
+}
+
+.top-container {
+  margin-top: 0px;   /* To remove gap from the top of the window*/
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 100px;
+  padding-bottom: 50px;
+}
+
+.intro {
+  width: 40%;
+  padding-top: 60px;
+  padding-bottom: 55px;
+  margin: auto;
+  line-height: 2;
+}
+
+#my-icon {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.programmer {
+  font-size: 2.5rem;
+}
+
+.my-favicon {
+  border-radius: 100%;
+}
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 350px;
+  left: 250px;
+}
+
+#coding-sign {
+  position: relative;
+  bottom: 70px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  position: relative;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-p {
+  position: relative;
+  bottom: 70px;
+}
+
+.skills {
+  padding-top: 20px;
+}
+
+#bad-sign {
+  position: relative;
+  bottom: 30px;
+  width: 25%;
+  float: right;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 90px;
+}
+
+.btn {
+  margin-top: 30px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+  position: relative;
+  top: 70px;
+}
+
+.habit {
+  padding-bottom: 40px;
+  width: 40%;
+  margin: 40px auto 60px auto;
+  line-height: 2;
+}
+
+.footer-link {
+  position: relative;
+  bottom: 40px;
+  padding: 25px;
+  color: #11999E;
+}
+
+.copy {
+  font-size: 13px;
+  color: #EAF6F6;
+  position: relative;
+  bottom: 30px;
+}
